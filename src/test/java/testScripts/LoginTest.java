@@ -56,6 +56,7 @@ public class LoginTest {
 //	  Assert.assertTrue(isDisp);
 //  }
   
+  
   //same test file for csv and json
   @Test(dataProvider ="loginData")
   public void validLogin(String strUser,String strPwd) {
